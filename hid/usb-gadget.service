@@ -1,0 +1,13 @@
+[Unit]
+Description=USB HID Gadget (ConfigFS)
+After=sys-kernel-config.mount
+Requires=sys-kernel-config.mount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/usb-gadget-hid.sh start
+ExecStop=/usr/local/sbin/usb-gadget-hid.sh stop
+
+[Install]
+WantedBy=multi-user.target
