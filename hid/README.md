@@ -99,9 +99,9 @@ if __name__ == "__main__":
     main()
 ```
 
-✅ 핵심 요약:
-- tap() = 누르고 → 떼기 (press + release)
-- type_text("Hello World") → 자동 타이핑
-- wpm으로 속도 조절 (기본 240WPM)
-- 항상 release()로 키가 붙는 현상을 방지해야 함
-- US 키보드 기준 매핑 (IME/한글 전환은 별도 고려 필요)
+- 핵심 요약:
+    - tap() = 누르고 → 떼기 (press + release)
+    - type_text("Hello World") → 자동 타이핑
+    - wpm으로 속도 조절 (기본 240WPM)
+    - 항상 release()로 키가 붙는 현상을 방지해야 함
+    - US 키보드 기준 매핑 (IME/한글 전환은 별도 고려 필요)
